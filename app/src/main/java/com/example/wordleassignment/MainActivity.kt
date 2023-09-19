@@ -118,12 +118,10 @@ class MainActivity : AppCompatActivity() {
                     hiddenWordView.visibility = View.VISIBLE
                 }
             } else {
-                gameResultView.text = "YOU LOSE!(2)"
+                gameResultView.text = "YOU LOSE!"
                 gameResultView.visibility = View.VISIBLE
             }
         }
-
-
     }
 
 }
