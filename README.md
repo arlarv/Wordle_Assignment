@@ -34,6 +34,10 @@ Here's a walkthrough of implemented user stories:
 
 <img src='https://imgur.com/gallery/14Qh0Nv' title='Video Walkthrough' width='' alt='Video Walkthrough (Lose)' />
 
+[Video Walkthrough of a Loss](https://imgur.com/gallery/14Qh0Nv)
+
+(I don't know why the link above this one isn't working but here is a direct link to the GIF.)
+
 <!-- Replace this with whatever GIF tool you used! -->
 GIF created with ScreenToGif
 <!-- Recommended tools:
