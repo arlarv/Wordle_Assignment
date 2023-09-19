@@ -9,8 +9,8 @@
 
     <TextView
         android:id="@+id/Guess1Entry"
-        android:layout_width="86dp"
-        android:layout_height="37dp"
+        android:layout_width="86sp"
+        android:layout_height="37sp"
         android:layout_marginEnd="32sp"
         android:gravity="end"
         android:text="@string/Guess1Entry"
@@ -25,8 +25,8 @@
 
     <TextView
         android:id="@+id/Guess2Entry"
-        android:layout_width="86dp"
-        android:layout_height="37dp"
+        android:layout_width="86sp"
+        android:layout_height="37sp"
         android:layout_marginEnd="32dp"
         android:gravity="end"
         android:text="@string/Guess2Entry"
@@ -40,8 +40,8 @@
 
     <TextView
         android:id="@+id/Guess1Check"
-        android:layout_width="86dp"
-        android:layout_height="37dp"
+        android:layout_width="86sp"
+        android:layout_height="37sp"
         android:layout_marginEnd="32dp"
         android:gravity="end"
         android:text="@string/Guess1Check"
@@ -55,8 +55,8 @@
 
     <TextView
         android:id="@+id/Guess3Entry"
-        android:layout_width="86dp"
-        android:layout_height="37dp"
+        android:layout_width="86sp"
+        android:layout_height="37sp"
         android:layout_marginEnd="32dp"
         android:gravity="end"
         android:text="@string/Guess3Entry"
@@ -70,8 +70,8 @@
 
     <TextView
         android:id="@+id/Guess2Result"
-        android:layout_width="230dp"
-        android:layout_height="37dp"
+        android:layout_width="230sp"
+        android:layout_height="37sp"
         android:layout_marginStart="16dp"
         android:layout_marginTop="224dp"
         android:text="@string/guess_2_result"
@@ -83,8 +83,8 @@
 
     <TextView
         android:id="@+id/Guess3Result"
-        android:layout_width="86dp"
-        android:layout_height="37dp"
+        android:layout_width="86sp"
+        android:layout_height="37sp"
         android:layout_marginEnd="32dp"
         android:gravity="end"
         android:text="@string/Guess2Result"
@@ -98,8 +98,8 @@
 
     <TextView
         android:id="@+id/Guess1Result"
-        android:layout_width="230dp"
-        android:layout_height="42dp"
+        android:layout_width="230sp"
+        android:layout_height="42sp"
         android:layout_marginStart="16sp"
         android:layout_marginTop="100dp"
         android:text="@string/guess_1_result"
@@ -112,10 +112,10 @@
 
     <TextView
         android:id="@+id/Guess2"
-        android:layout_width="230dp"
-        android:layout_height="37dp"
+        android:layout_width="230sp"
+        android:layout_height="37sp"
         android:layout_marginStart="16sp"
-        android:layout_marginTop="168dp"
+        android:layout_marginTop="168sp"
         android:text="@string/guess_2"
         android:textSize="30sp"
         android:visibility="invisible"
@@ -125,8 +125,8 @@
 
     <TextView
         android:id="@+id/Guess3Check"
-        android:layout_width="230dp"
-        android:layout_height="37dp"
+        android:layout_width="230sp"
+        android:layout_height="37sp"
         android:layout_marginStart="16dp"
         android:layout_marginTop="344dp"
         android:text="@string/guess_3_result"
@@ -138,10 +138,10 @@
 
     <TextView
         android:id="@+id/Guess3"
-        android:layout_width="230dp"
-        android:layout_height="37dp"
-        android:layout_marginStart="16dp"
-        android:layout_marginTop="284dp"
+        android:layout_width="230sp"
+        android:layout_height="37sp"
+        android:layout_marginStart="16sp"
+        android:layout_marginTop="284sp"
         android:text="@string/guess_3"
         android:textSize="30sp"
         android:visibility="invisible"
@@ -151,10 +151,10 @@
 
     <TextView
         android:id="@+id/Guess1"
-        android:layout_width="230dp"
-        android:layout_height="37dp"
+        android:layout_width="230sp"
+        android:layout_height="37sp"
         android:layout_marginStart="16sp"
-        android:layout_marginTop="40dp"
+        android:layout_marginTop="40sp"
         android:text="@string/guess_1"
         android:textSize="30sp"
         android:textColor="@color/black"
@@ -166,9 +166,9 @@
 
     <TextView
         android:id="@+id/Guess2Check"
-        android:layout_width="86dp"
-        android:layout_height="37dp"
-        android:layout_marginEnd="32dp"
+        android:layout_width="86sp"
+        android:layout_height="37sp"
+        android:layout_marginEnd="32sp"
         android:gravity="end"
         android:text="@string/Guess2Check"
         android:textSize="30sp"
@@ -217,10 +217,10 @@
 
     <TextView
         android:id="@+id/wordToGuess"
-        android:layout_width="197dp"
-        android:layout_height="73dp"
-        android:layout_marginTop="155dp"
-        android:layout_marginBottom="26dp"
+        android:layout_width="197sp"
+        android:layout_height="73sp"
+        android:layout_marginTop="155sp"
+        android:layout_marginBottom="26sp"
         android:gravity="center"
         android:text=""
         android:textColor="@color/black"
