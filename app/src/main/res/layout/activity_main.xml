@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/paper_background"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/Guess1Entry"
+        android:layout_width="86dp"
+        android:layout_height="37dp"
+        android:layout_marginEnd="32sp"
+        android:gravity="end"
+        android:text="@string/Guess1Entry"
+        android:textSize="30sp"
+        android:visibility="invisible"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="@+id/Guess1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/Guess1"
+        app:layout_constraintVertical_bias="1.0"
+        tools:ignore="TextSizeCheck" />
+
+    <TextView
+        android:id="@+id/Guess2Entry"
+        android:layout_width="86dp"
+        android:layout_height="37dp"
+        android:layout_marginEnd="32dp"
+        android:gravity="end"
+        android:text="@string/Guess2Entry"
+        android:textSize="30sp"
+        android:visibility="invisible"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="@+id/Guess2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/Guess2"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <TextView
+        android:id="@+id/Guess1Check"
+        android:layout_width="86dp"
+        android:layout_height="37dp"
+        android:layout_marginEnd="32dp"
+        android:gravity="end"
+        android:text="@string/Guess1Check"
+        android:textColor="@color/black"
+        android:textSize="30sp"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="@+id/Guess1Result"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/Guess1Result"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <TextView
+        android:id="@+id/Guess3Entry"
+        android:layout_width="86dp"
+        android:layout_height="37dp"
+        android:layout_marginEnd="32dp"
+        android:gravity="end"
+        android:text="@string/Guess3Entry"
+        android:textSize="30sp"
+        android:visibility="invisible"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="@+id/Guess3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/Guess3"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <TextView
+        android:id="@+id/Guess2Result"
+        android:layout_width="230dp"
+        android:layout_height="37dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="224dp"
+        android:text="@string/guess_2_result"
+        android:textSize="30sp"
+        android:visibility="invisible"
+        android:textColor="@color/black"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/Guess3Result"
+        android:layout_width="86dp"
+        android:layout_height="37dp"
+        android:layout_marginEnd="32dp"
+        android:gravity="end"
+        android:text="@string/Guess2Result"
+        android:textSize="30sp"
+        android:visibility="invisible"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="@+id/Guess3Check"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/Guess3Check"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <TextView
+        android:id="@+id/Guess1Result"
+        android:layout_width="230dp"
+        android:layout_height="42dp"
+        android:layout_marginStart="16sp"
+        android:layout_marginTop="100dp"
+        android:text="@string/guess_1_result"
+        android:textSize="30sp"
+        android:visibility="invisible"
+        android:textColor="@color/black"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        />
+
+    <TextView
+        android:id="@+id/Guess2"
+        android:layout_width="230dp"
+        android:layout_height="37dp"
+        android:layout_marginStart="16sp"
+        android:layout_marginTop="168dp"
+        android:text="@string/guess_2"
+        android:textSize="30sp"
+        android:visibility="invisible"
+        android:textColor="@color/black"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/Guess3Check"
+        android:layout_width="230dp"
+        android:layout_height="37dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="344dp"
+        android:text="@string/guess_3_result"
+        android:textSize="30sp"
+        android:visibility="invisible"
+        android:textColor="@color/black"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/Guess3"
+        android:layout_width="230dp"
+        android:layout_height="37dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="284dp"
+        android:text="@string/guess_3"
+        android:textSize="30sp"
+        android:visibility="invisible"
+        android:textColor="@color/black"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/Guess1"
+        android:layout_width="230dp"
+        android:layout_height="37dp"
+        android:layout_marginStart="16sp"
+        android:layout_marginTop="40dp"
+        android:text="@string/guess_1"
+        android:textSize="30sp"
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toStartOf="@+id/Guess1Entry"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="TextSizeCheck" />
+
+    <TextView
+        android:id="@+id/Guess2Check"
+        android:layout_width="86dp"
+        android:layout_height="37dp"
+        android:layout_marginEnd="32dp"
+        android:gravity="end"
+        android:text="@string/Guess2Check"
+        android:textSize="30sp"
+        android:visibility="invisible"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="@+id/Guess2Result"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/Guess2Result"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <EditText
+        android:id="@+id/inputText"
+        android:layout_width="221sp"
+        android:layout_height="48sp"
+        android:layout_marginStart="16sp"
+        android:layout_marginBottom="48sp"
+        android:autofillHints=""
+        android:clickable="true"
+        android:focusable="true"
+        android:hint="@string/enter_your_guess"
+        android:inputType="text"
+        android:lines="1"
+        android:maxLines="1"
+        android:maxLength="4"
+        android:textColor="@color/black"
+        android:textColorHint="#263238"
+        android:textSize="25sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/inputButton"
+        android:layout_width="147sp"
+        android:layout_height="47sp"
+        android:layout_marginStart="7sp"
+        android:background="#8BC34A"
+        android:onClick="inputButton"
+        android:text="@string/enter_guess"
+        android:textColor="#37474F"
+        app:layout_constraintBottom_toBottomOf="@+id/inputText"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.238"
+        app:layout_constraintStart_toEndOf="@+id/inputText"
+        app:layout_constraintTop_toTopOf="@+id/inputText"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <TextView
+        android:id="@+id/wordToGuess"
+        android:layout_width="197dp"
+        android:layout_height="73dp"
+        android:layout_marginTop="155dp"
+        android:layout_marginBottom="26dp"
+        android:gravity="center"
+        android:text=""
+        android:textColor="@color/black"
+        android:textSize="50sp"
+        android:visibility="invisible"
+        android:background="@color/red"
+        app:layout_constraintBottom_toTopOf="@+id/inputText"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Guess3Result"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/gameResultView"
+        android:layout_width="347sp"
+        android:layout_height="111sp"
+        android:gravity="center"
+        android:text="@string/GameResult"
+        android:textColor="@color/black"
+        android:textSize="60sp"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toTopOf="@+id/wordToGuess"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Guess3Check"
+        tools:ignore="MissingConstraints" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

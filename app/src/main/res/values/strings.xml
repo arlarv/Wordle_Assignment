@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Wordle Assignment</string>
+    <string name="enter_guess"> Enter Guess</string>
+    <string name="enter_your_guess"> Enter your guess..</string>
+    <string name="guess_1">Guess #1</string>
+    <string name="guess_1_result">Guess #1 Result</string>
+    <string name="Guess2Result">- - - -</string>
+    <string name="guess_2_result">Guess #2 Result</string>
+    <string name="guess_3_result">Guess #3 Result</string>
+    <string name="Guess1Check">- - - -</string>
+    <string name="Guess1Entry">xxxx</string>
+    <string name="guess_2">Guess #2</string>
+    <string name="guess_3">Guess #3</string>
+    <string name="Guess2Check">- - - -</string>
+    <string name="Guess2Entry">xxxx</string>
+    <string name="Guess3Entry">xxxx</string>
+    <string name="GameResult">YOU </string>
+
+</resources>
